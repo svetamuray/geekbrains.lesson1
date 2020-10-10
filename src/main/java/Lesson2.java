@@ -5,8 +5,8 @@ public class Lesson2 {
         System.out.print("Decision");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
-            if (arr[i] == 0) arr[i] = i;
-            else arr[i] = 0;
+            if (arr[i] == 1) arr[i] = 0;
+            else arr[i] = 1;
         }
         System.out.print("Decision: ");
         for (int i : arr){
